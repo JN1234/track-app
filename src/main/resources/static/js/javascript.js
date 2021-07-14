@@ -130,6 +130,27 @@ function changeView(id) {
     viewToShow.className = ""
   }
 }
+function cancelIssuePost() {
+
+  console.log("reset form")
+  
+  var description = document.getElementById('issueDesc').value="";
+
+  var location = document.getElementById('issueLocation').value="";
+  var selects = document.getElementById('equipmentSelect').value="0";
+
+
+}
+function cancelEquipPost() {
+
+  console.log("reset form")
+  
+ 
+  var description = document.getElementById('equipmentDesc').value="";
+
+  var name = document.getElementById('equipmentName').value="";
+
+}
 function addEquip() {
 
   var description = document.getElementById('equipmentDesc').value;
@@ -240,11 +261,6 @@ function addIssue() {
 
 
 
-
-}
-function cancelIssuePost() {
-
-  console.log("reset form")
 
 }
 function getEquips() {
